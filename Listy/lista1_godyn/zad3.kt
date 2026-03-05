@@ -17,6 +17,6 @@ fun printPascal(height: Int): String {
 }
 
 fun main() {
-    val height: Int = 5
+    val height: Int = 4
     println(printPascal(height))
 }
