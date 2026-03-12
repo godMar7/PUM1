@@ -7,7 +7,6 @@ fun countVowels(word: String): Int {
             count++
         }
     }
-    
     return count
 }
 

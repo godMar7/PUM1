@@ -6,11 +6,9 @@ fun checkArmstrong(number: Int): Boolean {
     for (char in text) {
         val digit = char.digitToInt()
         var current = 1
-        
         for (i in 1..power) {
             current *= digit
         }
-        
         sum += current
     }
 
@@ -18,6 +16,6 @@ fun checkArmstrong(number: Int): Boolean {
 }
 
 fun main() {
-    val number: Int = 153
+    val number: Int = 154
     println(checkArmstrong(number))
 }
